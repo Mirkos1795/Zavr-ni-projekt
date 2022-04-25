@@ -1,0 +1,48 @@
+
+
+.flex-container {
+  display: flexbox;
+  
+flex-direction: row;
+}
+
+
+.flex-container>div {
+
+padding-right: 10px; 
+  border: 2px solid black;
+  font-size: 15px;
+  
+}
+
+ div.element1 {
+   display: flex;
+   background-color: none;
+  justify-content: center;
+  justify-items: center;
+}
+
+div.element2 {
+  display: flex;
+  justify-content: left;
+  justify-items: left;
+}
+
+div.element3 {
+  display: flex;
+  justify-content: right;
+  justify-items: right;
+}
+
+
+
+button {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.slika {
+  display: flex;
+  justify-content: center;
+}

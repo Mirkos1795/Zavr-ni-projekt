@@ -1,0 +1,189 @@
+ #sekcijakategorija{
+     display: flex;
+     flex-direction: row;
+     
+ }
+
+ #kutija{
+    display: block;
+     padding-top:5px;
+     padding-bottom: 10px;
+ }
+ 
+ #kutijared{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+     
+ }
+
+ #kutijakartica{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width:450px;
+
+ }
+
+
+#slikakartica{
+    display: block;
+    width: 100%;
+  height: 300px;
+ overflow:hidden;
+  
+  
+  
+}
+
+ #kartica{
+     display: block;
+     flex-direction: column;
+    
+     
+     
+ }
+
+#karticaelementi{
+    display: block;
+    flex-direction: column;
+}
+
+
+
+
+
+/*pjesme*/
+ #sekcijakategorija1{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#kutija1{
+   display: block;
+    padding-top:5px;
+    padding-bottom: 10px;
+}
+
+#kutijared1{
+   margin-top: 10px;
+   margin-bottom: 10px;
+    
+}
+
+#kutijakartica1{
+   display: flex;
+   flex-direction: column;
+   justify-content:space-between;
+padding-bottom: 5px;
+width: 400px;
+}
+
+
+#slikakartica1{
+   display: block;
+   width: 100%;
+ height: 300px;
+ overflow:hidden;
+}
+
+#kartica1{
+    display: block;
+    flex-direction: column;
+    
+    
+}
+
+#karticaelementi1{
+    display: block;
+   height: 100px;
+   
+   padding-top: 12px;
+}
+
+
+
+
+
+
+
+#sekcijakategorijapocetna{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+#kutijaredpocetna{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#kutijakarticapocetna{
+    display: flex;
+    flex-direction: column;
+    
+    
+    justify-content:space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width:400px;
+}
+
+#slikakarticapocetna{
+    display: block;
+    width: 100%;
+  height: fit-content;
+  overflow:hidden;
+ }
+
+#slikakartica2pocetna{
+    display: block;
+    width: 100%;
+  height: fit-content;
+  overflow:hidden;
+ }
+
+
+
+ #sekcijakategorijapocetna2{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+
+#kutijaredpocetna2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#kutijakarticapocetna2{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+#slikakarticapocetna2{
+    display:flex;
+    width: 100%;
+  height: fit-content;
+  overflow:hidden;
+  flex-wrap: wrap;
+  flex-flow: row;
+    
+  justify-content:space-between;
+  
+ }
+
+

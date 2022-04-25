@@ -1,0 +1,293 @@
+html{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+body  {
+
+    position: relative;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(214, 218, 226);
+  
+  }
+  
+  .container
+  {
+    position: relative;
+    max-width: 1200px;
+    min-height: 1200px;
+    background:white;
+    margin:20px 400px;
+    padding: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+   
+  }
+  
+  .container .lijeva-strana
+  {
+    position: relative;
+    background-color: rgb(27, 105, 88);
+    padding: 30px;
+    
+   
+  }
+  
+  .profil {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+  }
+  
+  .profil .slika
+  {
+    position: relative;
+    width: 300px;
+    height: 265px;
+    
+    overflow: hidden;
+  }
+  
+  .profil .slika .img
+  {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+  }
+  
+  .profil h2 
+  {
+    color: rgb(207, 204, 204);
+    font-size: 1em;
+    margin-top: 20px;
+    
+  }
+  
+  
+  
+  .naslov
+  {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  
+  }
+  
+    .ime{
+    color: #fff;
+    
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .kontakt
+  {
+    padding-top:40px;
+  }
+  
+  .kontakt ul {
+    position:relative;
+    list-style: none;
+  }
+  
+  .kontak ul li {
+    position: relative;
+    list-style: none;
+    margin:10px 0px;
+    cursor: pointer;
+    
+  }
+  
+  .kontakt ul li .icon {
+    display:inline-block;
+    width:30px;
+    font-size: 18px;
+    color: #13a1e2;
+    
+  
+  } 
+  
+  .kontakt ul li span {
+  
+    color: #fff;
+    font-weight: 300;
+  
+  }
+  
+  
+  
+  .obrazovanje  ul li {
+    margin-bottom: 15px;
+    position: relative;
+    list-style: none;
+    margin:10px 0px;
+  }
+  
+  .obrazovanje h4:nth-child(2)
+  {
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .obrazovanje h6 {
+    color: rgb(169, 172, 33);
+    font-weight: 600;
+  }
+  
+  .obrazovanje h5 {
+    color: rgb(236, 226, 221);
+    font-weight: 500;
+  }
+  
+  .jezici ul li {
+    position: relative;
+    list-style: none;
+    margin:10px 0px;
+    
+    
+  }
+  
+  
+  .jezici ul li {
+  
+    color: rgb(255, 254, 254);
+    font-weight: 300;
+  
+  }
+  
+  .jezici .udio  {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background-color: rgb(107, 107, 103);
+  display: block;
+  margin-top: 5px;
+  
+  }
+  
+  .jezici .udio div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(175, 175, 28);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .container .desna-strana
+  {
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+  }
+  
+  .omeni {
+    margin-bottom: 50px;
+  }
+  
+  .omeni:last-child{
+  margin-bottom: 0;
+  }
+  .naslov2{
+    color:#003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  
+  p{
+    color: black;
+  }
+  
+  .omeni .box {
+    display: flex;
+    flex-direction: row;
+    margin:20px 0;
+  
+  }
+  .omeni .box1 .godina{
+    min-width: 150px;
+    
+  } 
+  .omeni .box1 .godina h5{
+    
+    color: rgb(42, 42, 42);
+    font-weight: 500;
+  }
+  
+  
+  
+  
+  
+  .hobi ul {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+  .hobi ul li{
+    list-style: none;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  
+  
+  @media (max-width: 1000px)
+  {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+  
+    .hobi ul {
+        grid-template-columns: repeat(2,1fr);
+    }
+  }
+  
+  @media (max-width: 600px)
+  {
+    .omeni .box1{
+  flex-direction: column;
+  
+    }
+  
+    .omeni .box1 .godina{
+        min-width: 150px;
+  
+    }
+  
+    .hobi ul {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .vjestine .box1 {
+        grid-template-columns: repeat(1,1fr);
+    }
+  }

@@ -1,0 +1,111 @@
+body {
+
+  height: 100vh;
+  
+}
+
+.pocetna {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+  border: 1px solid black ;
+  background-color: rgb(102, 115, 139);
+
+
+}
+
+
+div.container .kutija {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.red {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10x;
+  padding: 10px;
+  
+
+}
+
+.kartica {
+  
+  background-color: #c9a91a;
+
+}
+
+
+
+.slikapocetna {
+  display: block;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+
+.w3-table-all {
+display:block;
+
+  
+}
+
+.tablica {
+  width: 100%;
+}
+
+
+
+.forma-stranica{
+ display: flex;
+ flex-direction: column;
+
+ margin-left: auto;
+ margin-right:auto;
+
+
+}
+
+.forma {
+border: 2px solid black;
+margin-left: auto;
+margin-right:auto;
+margin-bottom: auto;
+margin-top: auto;
+
+
+
+
+  
+}
+
+
